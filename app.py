@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.title('Jeg er en titel')
+st.write('Updating on the fly')
 sentences1 = st.text_input('Insert sentences 1:')
 sentences2 = st.text_input('Insert sentences 2:')
 
